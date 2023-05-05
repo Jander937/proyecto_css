@@ -1,0 +1,22 @@
+.form-tran input,select{
+    inline-size: 60%;
+    box-sizing: border-box;
+    color:black;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    padding-inline: 16px;
+}
+
+.contform-t{
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cont-tran input, select{
+    margin: 5px;
+
+}

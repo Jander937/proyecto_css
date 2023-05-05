@@ -1,0 +1,42 @@
+body{
+    background-image: url(../img/pexels-photo-14767397.jpeg);
+    /* padding: 25%; */
+    background-size: cover;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+.container-1{
+
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: row; 
+    justify-content:center;
+    margin-bottom:  4px;
+    align-items: center;
+    /* border: 1px solid rgb(246, 45, 45); */
+    
+}
+
+.item{
+    margin: 30px;
+    padding: 5px;
+    width: 600px;
+    height: 900px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+

@@ -1,0 +1,87 @@
+
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    
+}
+
+.flexbox-container > div {
+	width: 50%;
+	padding: 10px;
+  background: #fff;
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 10px;
+}
+
+.flexbox-container img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 15px 70px;
+}
+
+.imagen{
+	width: 200px;
+	height: 200px;
+}
+
+.contformcs{
+	text-align: center;
+	width: 80%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.formcs input, select{
+	inline-size: 60%;
+    box-sizing: border-box;
+    color:black;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    font-size: 16px;
+    margin-block-end:24px;
+}
+
+.formcs label{
+	display: block;
+	font-size: 15px;
+}
+
+.formcs input[type="submit"]{
+    font-size: 20px;
+	background-color: aqua;
+    
+}
+
+.foto{
+	width: 200px;
+	padding: 10px 400px;
+}
+
+content-ret{
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form-ret input, select{
+    inline-size: 60%;
+    box-sizing: border-box;
+    color:black;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    font-size: 16px;
+}
+.form-ret input[type="submit"]{
+    font-size: 20px;
+    background: #157EFB;}

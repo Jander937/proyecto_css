@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/botones.css">
+    <link rel="stylesheet" href="./css/consignar.css">
+    <link rel="stylesheet" href="./css/retiros.css">
+    <link rel="stylesheet" href="./css/transferencias.css">
+    <title>TRANSFERENCIAS</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="./img/dinero-logo-diseno-concepto-vector-financiero-o-banco-logotipo-simple_487414-2466.avif"
+                width="100px" alt="logo de la imagen">
+            <h2 class="nombre de la empresa">FINANCIAL</h2>
+        </a>
+        <nav>
+            <a href="login.html" class="nav-link">login</a>
+            <a href="botones.html" class="nav-link">botones</a>
+            <a href="consignar.html" class="nav-link">consignar </a>
+            <a href="retiros.html" class="nav-link">retiros</a>
+            <a href="transferencias.html" class="nav-link">transferencias</a>
+        </nav>
+    </header>   
+
+    <main>
+
+        <section class="cont-tran">
+            <section class="contform-t">
+                <form action="" class="form-tran">
+                    <img src="./img/pexels-photo-176837.jpeg" class="foto" alt="imagen-transferir-dinero">
+                    <section class="registros">
+                        <input type="text"  id="nombre" placeholder="nombre">
+                        <input type="email"  id="correo" placeholder="Correo Electronico">
+
+                    </section>
+
+                    <section class="registros">
+                        <input type="number"  id="numerocuenta" placeholder="Nombre De Cuenta">
+                        <select name="tipocuenta" id="tipocuenta">
+                            <option value="0">Tipo de Cuento</option>
+                            <option value="ahorros">Ahorros</option>
+                            <option value="corriente">Corriente</option>
+                        </select>
+                    </section>
+
+                    <section class="registros">
+                        <select name="bancos"  id="bancos">
+                            <option value="0">Banco</option>
+                            <option value="bancolombia">Bancolombia</option>
+                            <option value="bancobogota">Banco De Bogotá</option>
+                            <option value="Davivienda">Davivienda</option>
+                            <option value="bbva">BBVA</option>
+                            <option value="colpatria">Scotiabank Colpatria</option>
+                            <option value="itau">Banco Itaú</option>
+
+                        </select>
+                        <input type="number"  id="monto" placeholder="Monto a transferir">
+                        
+
+                    </section>
+                    <section>
+                        <input type="submit" value="Transferir Dinero">
+                    </section>
+
+                </form>
+
+            </section>
+
+        </section>
+
+
+
+    </main>
+</body>
+</html>
